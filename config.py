@@ -1,4 +1,3 @@
-
 #
 # Licensed to the Apache Software Foundation (ASF) under one
 # or more contributor license agreements.  See the NOTICE file
@@ -142,7 +141,7 @@ DEFAULT_DAG_PARSING_LOGGING_CONFIG: Dict[str, Dict[str, Dict[str, Any]]] = {
     },
     'loggers': {
         'airflow.processor_manager': {
-            'handlers': ['processor_manager'],
+            'handlers': ['console'],
             'level': LOG_LEVEL,
             'propagate': False,
         }
